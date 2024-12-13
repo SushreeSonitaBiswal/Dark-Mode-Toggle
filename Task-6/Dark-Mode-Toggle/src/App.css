@@ -1,0 +1,19 @@
+/* Add transitions for smooth theme changes */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light theme */
+body.light {
+  background-color: #f3f4f6;
+  color: #1f2937;
+}
+
+/* Dark theme */
+body.dark {
+  background-color: #1f2937;
+  color: #f3f4f6;
+}
+
